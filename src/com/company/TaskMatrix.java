@@ -9,6 +9,7 @@ public class TaskMatrix {
     }
     TaskMatrix(int rows, int columns) {this.matrix = new int[rows][columns];}
     TaskMatrix(int[][] matrix) {this.matrix = copyMatrix(matrix);}
+
     public int[][] copyMatrix(int[][] matrix)
     {
         int[][] copiedMatrix = new int[matrix[0].length][];

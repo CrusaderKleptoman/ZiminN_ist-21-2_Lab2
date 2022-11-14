@@ -9,6 +9,14 @@ public class TaskText {
         this.text = new String[1]; this.text[0] = "";
     }
 
+    TaskText(String[] text)
+    {
+        this.text = new String[text.length + 1];
+        for (int i = 0; i < text.length; i++) {
+            this.text[i] = text[i];
+        }
+    }
+
     TaskText(String text)
     {
         int spaceCount = 0;
