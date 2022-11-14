@@ -9,6 +9,11 @@ public class TaskText {
         this.text = new String[1]; this.text[0] = "";
     }
 
+    TaskText(TaskText taskText)
+    {
+        this.text = taskText.getText();
+    }
+
     TaskText(String[] text)
     {
         this.text = new String[text.length + 1];

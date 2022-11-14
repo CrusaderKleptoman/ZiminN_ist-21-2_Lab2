@@ -19,7 +19,6 @@ public class Main {
                 taskMatrix.setElemMatrix(scanner.nextInt(), i, j);
             }
         }
-
         taskMatrix.getUpdMatr();
         System.out.println("Задание a)");
         taskMatrix.writeMatrix();
